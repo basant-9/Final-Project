@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+    background-color: #337d78; 
+    padding-top: 70px;
+}
+
+.navbar .nav-link {
+    color: white !important; 
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+  
+.navbar .nav-link:hover,
+.navbar .nav-link.active { 
+    color: #f3d24f !important; 
+    text-shadow: 1px 1px 10px rgba(255, 215, 0, 0.7);
+}
+
+.dropdown-menu {
+    background-color: #285c5a;
+}
+
+.dropdown-item {
+    font-weight: 500;
+    background-color: #285c5a !important;  
+    color: #ffffff !important;  
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active,
+.dropdown-item.active { 
+    background-color: #285c5a !important; 
+    color: #f3d24f !important;  
+    text-shadow: 1px 1px 10px rgba(255, 215, 0, 0.7);
+}
+
+.navbar {
+    background-color: #337d78 !important;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+  
+.navbar-brand img {
+    width: 100px;  
+}
+
+  
+.navbar a {
+    color:white;
+    font-weight: bold;
+    font-weight: 600; 
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color:#f3d24f;
+    text-shadow: 1px 1px 10px rgba(255, 215, 0, 0.7);
+    
+  } 
+
+.dropdown-item img {
+    filter: invert(1); 
+}
+
+.btn-outline-success {
+    border-color: #f3d24f;
+    color: #f3d24f;
+}
+
+.btn-outline-success:hover {
+    background-color: #f3d24f;
+    color: white;
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #777; 
+  
+}
+
+.form-control {
+    padding-left: 45px !important;  
+}
+
+.form-floating label {
+    left: 45px; 
+    color: #666;
+    transition: all 0.2s ease-in-out;
+    opacity: 1; 
+}
+
+.contact-container {
+    max-width: 1000px;
+    height: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-text {
+    width: 50%;
+}
+
+#contacth1{
+    color: #f3d24f;
+}
+
+.btn-custom {
+    background-color: #f3d24f;
+    color: white;
+    border: none; 
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold; 
+} 
+.btn-custom:hover {
+    color:#f3d24f;
+    text-shadow: 1px 1px 10px rgba(255, 215, 0, 0.7);
+}  
