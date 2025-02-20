@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Language Hub</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+
+        <!-- Navbar -->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Sign Language Hub</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+         </nav>
+
+         <!-- Hero Section -->
+          <header class="hero">
+            <div class="container text-center text-white">
+                <h1>Learn Sign Language with Ease</h1>
+                <p>Bridging the communication gap, one sign at a time.</p>
+                <a href="https://youtu.be/0FcwzMq4iWg?si=D2Tls1zykHvVVr3b" class="btn btn-primary">Watch Tutorials</a>
+            </div>
+          </header>
+
+           <!-- Gallery Section -->
+            <section id="gallery" class="container my-5">
+                <h2 class="text-center">Sign Language Gestures</h2>
+                <div class="row">
+                    <div class="col-md-4"><img src="sign1.jpg" class="img-fluid rounded" alt="Sign 1"></div>
+                    <div class="col-md-4"><img src="sign2.jpg" class="img-fluid rounded" alt="Sign 2"></div>
+                    <div class="col-md-4"><img src="sign3.jpg" class="img-fluid rounded" alt="Sign 3"></div>
+                </div>
+            </section>
+
+             <script src="script.js"></script>
+             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#videos iframe {
+    border-radius: 10px;
+}
