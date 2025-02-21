@@ -1,65 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial=scale=1.0">
-        <title>Home</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/girl_logo.png" alt="Logo" width="100">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- adding logo -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/girl logo.png" alt="Logo" width="100">
+      </a>      
+      <!-- button  -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+
+          <!-- Dropdown for learn -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="learn.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Learn
+            </a>
+            
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="alphabet.html">
+                  <img src="img/alphabet-uppercase.svg" alt="Alphabet Icon" width="20" height="20"> Alphabet
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+              </li>
+              <li>
+                <a class="dropdown-item" href="dictionary.html">
+                  <img src="img/bookmark-heart-fill.svg"  alt="Dictionary Icon" width="20" height="20"> Dictionary
+                </a>
+              </li>
+            </ul>
+          </li> 
+          
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a clss="nav-link dropdown-toggle" href="learn.html" role="button" data-bs-toggle="dropdown">Learn</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="alphabet.html">Alphabet</a></li>
-                                <li><a class="dropdown-item" href="dictionary.html">Dictionary</a></li>
-                            </ul> 
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="constact.html">Contact Us</a></li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control form-control-sm me-2" type="search" placeholder="Search">
-                        <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
+        <!-- Search Bar and Login Button -->
+        <form class="d-flex">
+          <input class="form-control form-control-sm me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-success btn-sm me-2" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-        <header class="text-center mt-5">
-            <h1>Welcome to Our Learning Platform</h1>
-            <p>Explore and learn in an interactive way</p>
-        </header>
+  <header class="text-center mt-5">
+    <h1>Welcome to Our Learning Platform</h1>
+    <p>Explore and learn in an interactive way</p>
+</header>
 
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Learn the Alphabet</h2>
-                    <p>Discover letters and their signs interactively.</p>
-                    <a href="alphabet.html" class="btn btn-custom">Start Learning</a>
-                </div>
-                <div class="col-md-6">
-                    <h2>Explore the Dictionary</h2>
-                    <p>Find words and their meanings in sign language.</p>
-                    <a href="dictionary.html" class="btn btn-custom">Explore Now</a>
-                </div>
-            </div>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Learn the Alphabet</h2>
+            <p>Discover letters and their signs interactively.</p>
+            <a href="alphabet.html" class="btn btn-custom">Start Learning</a>
         </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+        <div class="col-md-6">
+            <h2>Explore the Dictionary</h2>
+            <p>Find words and their meanings in sign language.</p>
+            <a href="dictionary.html" class="btn btn-custom">Explore Now</a>
+        </div>
+    </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
