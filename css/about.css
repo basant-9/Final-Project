@@ -24,9 +24,15 @@ header {
     text-decoration: none;
     padding: 15px;
     display: inline;
+    color:white;
+    font-weight: bold;
+    font-weight: 600; 
+    transition: color 0.3s ease-in-out;
   }
-  .navbar a:hover{
-    color: #f3d24f;
+  
+  .navbar a:hover {
+    color:#f3d24f;
+    text-shadow: 1px 1px 10px rgba(255, 215, 0, 0.7);
     text-decoration: none;
   }
   .navbar li{
