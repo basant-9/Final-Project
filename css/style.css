@@ -207,3 +207,28 @@ footer {
     color: white;
     transition: 0.3s ease;
 }
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.carousel {
+    height: 80vh;
+    width: 30%;  
+    margin: 0 auto; 
+}
+
+.carousel-inner img {
+    width: 100%;  
+    height: auto;  
+}  
+
+.alphabet{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #f3d24f;
+    padding-top: 70px;
+}
