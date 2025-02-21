@@ -232,3 +232,15 @@ footer {
     color: #f3d24f;
     padding-top: 70px;
 }
+
+.box {
+    max-width: 700px;
+    height: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+#text{
+    color: #f3d24f;
+}
